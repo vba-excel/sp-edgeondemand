@@ -5,7 +5,7 @@ go 1.25.3
 require (
 	github.com/chromedp/cdproto v0.0.0-20250724212937-08a3db8b4327
 	github.com/koltyakov/gosip v0.0.0-20250809193426-13b579cbf9c5
-	github.com/vba-excel/edgecookies v0.1.0
+	github.com/vba-excel/edgecookies v0.1.3
 )
 
 require (
