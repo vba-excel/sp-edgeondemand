@@ -16,7 +16,7 @@ import (
 	"github.com/koltyakov/gosip"
 	"github.com/koltyakov/gosip/cpass"
 
-	edgecookies "sharepoint-go/edgecookies"
+	edgecookies "github.com/vba-excel/edgecookies"
 )
 
 var (
