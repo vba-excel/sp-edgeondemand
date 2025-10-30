@@ -517,9 +517,9 @@ func (c *Cookies) toString() string {
 
 func (c *Cookies) getExpire() int64 { return c.Expire }
 
-func (c *Cookies) isExpired() bool {
-	return time.Now().Unix() >= (c.Expire - 30)
-}
+// func (c *Cookies) isExpired() bool {
+// 	return time.Now().Unix() >= (c.Expire - 30)
+// }
 
 func (c *Cookies) isExpiredWithSkew(skew int64) bool {
 	return time.Now().Unix() >= (c.Expire - skew)
